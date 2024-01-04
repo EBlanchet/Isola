@@ -26,7 +26,7 @@ Les coordonnées des « clics » captées en pixels sont systématiquement conve
 Par ces évènements, les joueurs n’intéragissent pas directement graphiquement mais modifient les listes des cases du plateau. Une fonction spéciale met ensuite à jour l’affichage graphique en prenant en charge les changements qui ont été apportés préalablement par les joueurs.
 Enfin, il faut savoir que dès qu’une action est menée et qu’un rafraichissement a lieu, une vérification de fin de partie est réalisée. Si l’un des deux joueurs voit son pion complètement immobilisé, un message de fin de partie s’affiche pour annoncer le joueur perdant et si une autre partie doit être rejouée : Si tel est le cas, le jeu repart au choix du nombre de joueur, dans le cas contraire la fenêtre du jeu se ferme.
 
-## Démarche de programmation
+### Démarche de programmation
 Afin de faciliter la lecture de l’algorigramme de programmation, celui-ci ne présente pas la détection des évènements bien que chacun d’eux servent de déclencheur pour les actions « Déplacer » et « Interdire ».
 
 IMAGE 
@@ -37,13 +37,13 @@ Après avoir lancer l’exécution du programme, un menu s’affiche pour conna�
 IMAGE
 IMAGE
 
-## Améliorations apportées
+### Améliorations apportées
 Dans notre programme nous avons ajouté différentes améliorations :
 • Les joueurs peuvent désormais choisir la taille de grilles, le nombre de colonnes est compris entre 5 et 12 cases et le nombre de lignes compris entre 5 et 9 cases.
 • Nous avons décidé d’utiliser l’événement « clic gauche » pour le choix des positions, des cases à supprimer et des déplacements fait par les joueurs.
 • Pour le raisonnement de l’ordinateur nous avons décidé qu’il se déplacera dans la direction vers lequel il y a le plus de cases vides consécutives. Quant au noircissement des cases, il prend au hasard une case possible autour du joueur 1.
 
-## Difficultés rencontrées
+### Difficultés rencontrées
 Nous avons rencontré des difficultés à trouver une stratégie de programmation la plus simple pour le déplacement voulu quant au pion de l’ordinateur.
 De plus pour la fonction case_possible la difficulté réside à trouver un algorithme permettant de vérifier les cases autour du pion car il n’a pas de coordonnées fixe.
 Le plus délicat dans la fonction pos_max_list était de trouver l’indice du maximum d’une liste.
