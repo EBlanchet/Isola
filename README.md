@@ -28,13 +28,15 @@ Enfin, il faut savoir que dès qu’une action est menée et qu’un rafraichiss
 ### Démarche de programmation
 Afin de faciliter la lecture de l’algorigramme de programmation, celui-ci ne présente pas la détection des évènements bien que chacun d’eux servent de déclencheur pour les actions « Déplacer » et « Interdire ».
 
-IMAGE 
+ <img width="747" alt="Capture d’écran 2024-03-06 à 17 27 58" src="https://github.com/EBlanchet/Isola/assets/86469825/fb9eb8e4-77b0-4cdb-b1aa-5c2c25534acd">
+
 
 ## Manuel d'utilisation 
 Après avoir lancer l’exécution du programme, un menu s’affiche pour connaître le nombre de joueur(s).
 
-IMAGE
-IMAGE
+<img width="891" alt="Capture d’écran 2024-03-06 à 17 28 23" src="https://github.com/EBlanchet/Isola/assets/86469825/186c81a2-0b96-41a8-96ce-59cec05fb6f6">
+<img width="885" alt="Capture d’écran 2024-03-06 à 17 28 42" src="https://github.com/EBlanchet/Isola/assets/86469825/63e8b8d5-367c-445c-8d26-c925cc01e520">
+
 
 ### Améliorations apportées
 Dans notre programme nous avons ajouté différentes améliorations :
